@@ -68,13 +68,11 @@ RSpec.describe TowersOfHanoi do
       end
     end
 
-
     context "when the board is won" do
       it "returns true" do
         expect(won_game.won?).to be_truthy
       end
     end
-
 
     # expect(won_game.won?).to eq(true)
   end
